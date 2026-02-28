@@ -1,12 +1,13 @@
 export default function Navbar({ page, onNavigate, user, onLogout }) {
   const items = [
-    { id: 'dashboard',     label: 'Painel',         icon: '⊞' },
-    { id: 'cases',         label: 'Casos',           icon: '📋' },
-    { id: 'new-case',      label: 'Novo Caso',       icon: '＋' },
-    { id: 'schedule',      label: 'Agenda',          icon: '📅' },
-    { id: 'pids',          label: 'PIDs / TJGO',     icon: '📍' },
-    { id: 'documents',     label: 'Documentos',      icon: '📄' },
-    { id: 'notifications', label: 'Notificações',    icon: '🔔' },
+    { id: 'dashboard',      label: 'Painel',          icon: '⊞' },
+    { id: 'cases',          label: 'Casos',            icon: '📋' },
+    { id: 'new-case',       label: 'Novo Caso',        icon: '＋' },
+    { id: 'schedule',       label: 'Agenda',           icon: '📅' },
+    { id: 'pids',           label: 'PIDs / TJGO',      icon: '📍' },
+    { id: 'questionnaires', label: 'Questionários',    icon: '📊' },
+    { id: 'documents',      label: 'Documentos',       icon: '📄' },
+    { id: 'notifications',  label: 'Notificações',     icon: '🔔' },
   ]
 
   return (
